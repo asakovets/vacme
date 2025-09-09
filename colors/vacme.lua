@@ -37,7 +37,7 @@ local vcolors = {
 	m2 = {term='5',hex='#8888C7'},
 
 	-- cyans
-	c1 = {term='194',hex='#EEFEFF'},
+	c1 = {term='194',hex='#EAFFFF'},
 	c2 = {term='14',hex='#B0ECED'},
 	c3 = {term='6',hex='#6AA7A8'},
 
@@ -84,8 +84,8 @@ syntax('DiffAdd', {fg=vcolors.w4, bg=vcolors.g2})
 syntax('DiffChange', {fg=vcolors.w4, bg=vcolors.c2})
 syntax('DiffDelete', {fg=vcolors.w4, bg=vcolors.r1})
 syntax('DiffText', {fg=vcolors.w4, bg=vcolors.g2})
-syntax('StatusLine', {fg=vcolors.w4, bg=vcolors.b1, style='bold,underline'})
-syntax('StatusLineNC', {fg=vcolors.w4, bg=vcolors.b1})
+syntax('StatusLine', {fg=vcolors.w4, bg=vcolors.c1, style='bold,underline'})
+syntax('StatusLineNC', {fg=vcolors.w4, bg=vcolors.c1})
 link('TabLine', 'StatusLineNC')
 link('TabLineFill', 'StatusLineNC')
 link('WinSeparator', 'StatusLineNC')
